@@ -37,6 +37,7 @@ In this example, we demonstrate how to solve the Black-Scholes equation using PI
 ## Set up the Neural Networks
 
 We can visualize and change the settings from [Deep Network Designer](https://www.mathworks.com/help/deeplearning/gs/get-started-with-deep-network-designer.html). In this app, you easily build deep learning networks interactively. Analyze the neural networks to check if the defined architecture is correct and detect problems before training.
+![Alt text](DeepNetworkDesigner.jpg)
 
 
 ## Model Evaluation
