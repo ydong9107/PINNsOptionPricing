@@ -42,6 +42,7 @@ We can visualize and change the settings from [Deep Network Designer](https://ww
 ## Model Evaluation
 
 In this section, we compare the numerical solutions with the analytic solutions to Black Scholes PDE at different maturity time $T=0.25, 0.5, 0.75,1$.
+![Alt text](Results/PINNsResults.png)
 
 Comparing the prediction and analytical solutions, the PINNs approximation has the accuracy in the shape of the true solutions. However, the PINNs perform underestimates from the analytic solutions as the maturity time  increases. The accuracy could be improved by considering different types of loss functions. In the current settings, the total loss function is consisted by three components: PDE loss, initial value loss, and boundary value loss. The results may be improved by trying smooth $L1$ loss. Another way is to try different neural networks. The activation layers used in the current settings are ReLU Activations. Recommend testing wider networks over deeper ones, utilizing $\tanh$  activation function.
 
